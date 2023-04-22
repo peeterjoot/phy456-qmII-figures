@@ -1,14 +1,13 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%Creator: cairo 1.15.4 (http://cairographics.org)
-%%CreationDate: Tue Apr 21 22:26:29 2020
+%%Creator: cairo 1.16.0 (https://cairographics.org)
+%%CreationDate: Sat Apr 22 12:22:48 2023
 %%Pages: 1
 %%DocumentData: Clean7Bit
 %%LanguageLevel: 2
-%%Creator: Wolfram Mathematica 12.1.0.0 for Mac OS X x86 (64-bit) (March 13, 2020)
+%%Creator: Wolfram Mathematica 12.2.0.0 for Mac OS X x86 (64-bit) (December 12, 2020)
 %%BoundingBox: 0 0 260 161
 %%EndComments
 %%BeginProlog
-save
 50 dict begin
 /q { gsave } bind def
 /Q { grestore } bind def
@@ -32,9 +31,6 @@ save
 /W* { eoclip } bind def
 /BT { } bind def
 /ET { } bind def
-/pdfmark where { pop globaldict /?pdfmark /exec load put }
-    { globaldict begin /?pdfmark /pop load def /pdfmark
-    /cleartomark load def end } ifelse
 /BDC { mark 3 1 roll /BDC pdfmark } bind def
 /EMC { mark /EMC pdfmark } bind def
 /cairo_store_point { /cairo_point_y exch def /cairo_point_x exch def } def
@@ -59,6 +55,11 @@ save
 /g { setgray } bind def
 /rg { setrgbcolor } bind def
 /d1 { setcachedevice } bind def
+/cairo_data_source {
+  CairoDataIndex CairoData length lt
+    { CairoData CairoDataIndex get /CairoDataIndex CairoDataIndex 1 add def }
+    { () } ifelse
+} def
 /cairo_flush_ascii85_file { cairo_ascii85_file status { cairo_ascii85_file flushfile } if } def
 /cairo_image { image cairo_flush_ascii85_file } def
 /cairo_imagemask { imagemask cairo_flush_ascii85_file } def
@@ -71,7 +72,7 @@ save
 %%EndPageSetup
 q 0 0 260 161 rectclip
 1 0 0 -1 0 161 cm q
-0.368408 0.506775 0.709793 rg
+0 g
 1.44 w
 2 J
 0 j
@@ -200,7 +201,6 @@ l 225.035 9.246 l 225.203 9.09 l 225.285 9.016 l 225.367 8.945 l 225.531
  l 251.797 108.891 l 252.48 112.473 l 252.562 112.914 l 252.82 114.227 l
  253.16 115.953 l 253.246 116.383 l 253.332 116.809 l 253.504 117.656 l 
 253.586 118.078 l 253.758 118.914 l 253.844 119.328 l S
-0 g
 0.36 w
 0 J
 0.18 80.164 m 259.02 80.164 l S
@@ -215,5 +215,5 @@ Q q
 Q Q
 showpage
 %%Trailer
-end restore
+end
 %%EOF
